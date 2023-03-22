@@ -1,7 +1,7 @@
 package LldOfNullHandling.vehicle;
 
 public class Bike extends Vehicle {
-    Bike(int tankCapacity){
+    public Bike(int tankCapacity){
         super(tankCapacity);
     }
     @Override
